@@ -1,0 +1,6 @@
+def multiple_default_args(arg1, arg2="hi", arg3="hello")
+  puts "Well #{arg2} and #{arg3} there #{arg1}!\n"
+end
+
+multiple_default_args("Fatima", "" ,arg3="howdy")
+multiple_default_args("Deleine", "" ,"howdy")
